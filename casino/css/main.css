@@ -219,6 +219,13 @@ h6 {
   background: #4dae3c;
 }
 
+.btn--grad {
+  background: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%)
+}
+
+.btn--grad:hover { 
+background-position: right center; 
+}
 /* ==========================================================================
    #DATE PICKER
    ========================================================================== */

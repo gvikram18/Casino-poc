@@ -22,7 +22,7 @@
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
-</head>
+</head> 
 
 <body>
     <?php
@@ -69,8 +69,13 @@
          }
       ?>
 
-    <div class="wrap font-robo" style="background:url(main-banner.png) no-repeat center center fixed;
-    -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; padding-bottom: 199px; padding-top: 100px;">
+    <div class="wrap font-robo" style="background:url(main-banner-opaque.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 199px;
+  padding-top: 141px;">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
                 <div class="banner">
@@ -89,40 +94,40 @@
                         }
 
                     </style>
-                    <h2 class="title">OTP Verification</h2>
+                    <h2 class="title">Event Registration</h2>
                     <form method="POST">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-1" type="text" placeholder="REFERENCE ID" name="ref_id"
+                                    <input class="input--style-1" type="text" placeholder="Reference ID" name="ref_id"
                                     pattern="NABC2020-[0-9]{10}" autofocus required>
                                 </div>
                             </div>
                         </div>
                         <div class="input-group">
-                            <input class="input--style-1" type="email" placeholder="EMAIL" name="email" 
+                            <input class="input--style-1" type="email" placeholder="E-mail" name="email" 
                             pattern="\A(?=[a-z0-9@.!#$%&'*+/=?^_`{|}~-]{6,254}\z)(?=[a-z0-9.!#$%&'*+/=?^_`{|}~-]{1,64}@)
                             [a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@ (?:(?=[a-z0-9-]{1,63}\.)[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?=[a-z0-9-]{1,63}\z)[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\z" autofocus required>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input type="tel" class="input--style-1" placeholder="MOBILE NUMBER" name="mob_no" autofocus 
+                                    <input type="tel" class="input--style-1" placeholder="Mobile number" name="mob_no" autofocus 
                                     required pattern="\d{10}" />  
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="p-t-10">
-                                    <span class="btn btn--radius btn--green" type="submit">GENERATE OTP</span>
+                                    <span class="btn btn--radius btn--green" type="submit">Generate OTP</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-2 input-group">
-                            <input class="input--style-1" type="number" placeholder="ENTER GENETATED OTP" name="generated_otp"
+                            <input class="input--style-1" type="number" placeholder="Enter generated OTP" name="generated_otp"
                             autofocus required pattern="\d{6}">
                         </div> 
                         <div class="p-t-10">
-                            <button class="btn btn--radius btn--green" type="submit">Submit</button>
+                            <button class="btn btn--radius btn--green" style="background: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%;background-position: right center;); " type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -144,3 +149,4 @@
 </body>
 </html>
 <!-- end document-->
+
