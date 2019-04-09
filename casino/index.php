@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
 
     <!-- Title Page-->
     <title>NABC 2020 : BOOK HOTEL</title>
